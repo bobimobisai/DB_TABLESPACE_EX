@@ -30,7 +30,7 @@
 В начале создаем табличное пространство для хранения всех данных базы:
 
 ```sql
-CREATE TABLESPACE insurance_space LOCATION '/path/to/your/location';
+CREATE TABLESPACE insurance_space LOCATION '/home';
 ```
 ## Создание-схемы-и-таблиц
 ```sql
