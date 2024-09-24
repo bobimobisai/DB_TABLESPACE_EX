@@ -6,7 +6,7 @@ services:
     container_name: mini_app_db
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: admin123
+      POSTGRES_PASSWORD: admin_password
     ports:
       - "8489:5432"
     restart: always
